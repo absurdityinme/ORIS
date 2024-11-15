@@ -34,8 +34,7 @@ public class RequestHandler {
                     response.sendNotFound();
                 }
                 else {
-                    response.sendHtmlText(file);
-                    // response.sendHtmlFile(file);
+                    response.sendHtmlFile(file);
                 }
             }
         }
